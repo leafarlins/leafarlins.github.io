@@ -2,7 +2,7 @@
 layout: post
 title: Documentation
 img: image-5.png
-categories: IT
+categories: TI
 ---
 
 

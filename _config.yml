@@ -30,12 +30,13 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 permalink: /:title/
-paginate: 12
+paginate: 6
 paginate_path: /page:num/
 
 #social
 twitter: http://twitter.com/@leafarlins
 github: http://github.com/leafarlins
+linkedin: https://www.linkedin.com/in/rafael-lins-bb757272/
 email: leafarlins@gmail.com
 
 # Sass style

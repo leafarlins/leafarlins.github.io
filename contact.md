@@ -5,6 +5,8 @@ permalink: /contact/
 ---
 
 
-Insert your contact details or a contact form here.
+Olá! Caso queira entrar em contato, utilize preferencialmente meu e-mail: [leafarlins@gmail.com](mailto:leafarlins@gmail.com).
 
-Read [How to create a form in Jekyll site](http://blog.webjeda.com/jekyll-contact-form/){: target="_blank"} to implement using formspree.
+Você também pode me encontrar nas redes sociais:
+* <i class="fa fa-twitter-square"></i> [Twitter]({{site.twitter}}){: target="_blank"}
+* <i class="fa fa-linkedin-square"></i> [Linkedin]({{site.linkedin}}){: target="_blank"}
