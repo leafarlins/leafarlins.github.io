@@ -2,6 +2,8 @@
 layout: post
 title: Documentation
 img: image-5.png
+lang: pt
+lang-ref: Documentation
 categories: TI
 ---
 

@@ -2,15 +2,19 @@
 
 
         <div class="mt10 recent">
-            <h2>Artigos recentes:</h2>
+            <h2>{{ site.data.translations['recentPosts'][page.lang] }}:</h2>
              <ul>
-                {% for post in site.posts limit:4 %}
+               {% assign recent=site.posts | where:"lang", page.lang %}
+               {% if recent.size > 0 %}
+
+                {% for post in recent limit:4 %}
 
                       <li>
                       <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
                       </li>
 
                 {% endfor %}
+                {% endif %}
               </ul>
 
         </div>
