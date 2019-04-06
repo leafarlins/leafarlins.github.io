@@ -29,8 +29,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 permalink: /:title/
-paginate: 12
-paginate_path: /page:num/
+#paginate: 6
+#paginate_path: /page:num/
 
 #social
 twitter: http://twitter.com/@leafarlins

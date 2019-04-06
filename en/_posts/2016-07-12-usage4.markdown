@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Usage Guide"
-categories: Misc
+categories: Music
 img: image-2.png
 ---
 

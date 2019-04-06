@@ -22,3 +22,15 @@ contact:
   en: "Contact"
   pt: "Contato"
   fr: "Concacter"
+catTI:
+  en: "I.T."
+  pt: "T.I."
+  ft: "T.I."
+catMusic:
+  en: "Music"
+  pt: "Música"
+  fr: "Musique"
+catViagem:
+  pt: Viagem
+  en: Travel
+  fr: Voyage
