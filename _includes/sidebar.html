@@ -7,7 +7,7 @@
                {% assign recent=site.posts | where:"lang", page.lang %}
                {% if recent.size > 0 %}
 
-                {% for post in recent limit:4 %}
+                {% for post in recent limit:10 %}
 
                       <li>
                       <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>

@@ -1,18 +1,24 @@
 relatedPosts:
   en: "Related Posts"
   pt: "Artigos relacionados"
+  fr: "L'articles ..."
 differentLanguage:
   en: "Read this page in a different language"
   pt: "Leia esta página em outra língua"
+  fr: "Lire ce page dans otre langue"
 recentPosts:
   en: "Recent Posts"
   pt: "Artigos Recentes"
+  fr: "L'articles plus recent"
 categories:
   en: "Categories"
   pt: "Categorias"
+  fr: "Categories"
 sobre:
   en: "About"
   pt: "Sobre"
+  fr: "About"
 contact:
   en: "Contact"
   pt: "Contato"
+  fr: "Concacter"

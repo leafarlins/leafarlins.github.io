@@ -36,7 +36,7 @@ title: Categories
   </div>
 {% endfor %}
   <div class="col-md-12 archive-group">
-<h3 class="category-head">Artigos mais recentes</h3>
+<h3 class="category-head">{{ site.data.translations['recentPosts'][page.lang] }}</h3>
 {% for post in site.posts limit:6 %}
 <article class="archive-item">
   <h5><small>{{ post.date | date_to_string }}</small>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
