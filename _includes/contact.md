@@ -1,9 +1,3 @@
----
-layout: page
-title: Contact
-permalink: /contact/
----
-
 
 Olá! Caso queira entrar em contato, utilize preferencialmente meu e-mail: [leafarlins@gmail.com](mailto:leafarlins@gmail.com).
 

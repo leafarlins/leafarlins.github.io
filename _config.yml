@@ -28,7 +28,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-permalink: /:title/
+
+
+permalink: none
 #paginate: 6
 #paginate_path: /page:num/
 
@@ -41,6 +43,39 @@ email: leafarlins@gmail.com
 # Sass style
 sass:
   style: compressed
+
+# Menus multilang
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/en/"
+    about:
+      name: "About"
+      url: "/about/"
+    contato:
+      name: "Contact"
+      url: "/contact/"
+  fr:
+    home:
+      name: "Accueil"
+      url: "/fr/"
+    about:
+      name: "À propos"
+      url: "/a-propos/"
+    contato:
+      name: "Contate"
+      url: "/a-propos/"
+  pt:
+    home:
+      name: "Início"
+      url: "/"
+    about:
+      name: "Sobre"
+      url: "/a-propos/"
+    contato:
+      name: "Contato"
+      url: "/contato/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
