@@ -44,6 +44,11 @@ email: leafarlins@gmail.com
 sass:
   style: compressed
 
+category-list:
+  en: [IT]
+  fr: [IT]
+  pt: [TI]
+
 # Menus multilang
 t:
   en:

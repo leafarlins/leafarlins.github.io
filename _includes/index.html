@@ -1,30 +1,12 @@
 <div class="row pack">
     {% assign langposts = site.posts | where: "lang", page.lang %}
-    {% assign tiposts = langposts | where: "categories", "TI" %}
-    {% assign vgposts = langposts | where: "categories", "Viagem" %}
-    {% assign msposts = langposts | where: "categories", "Music" %}
-    <div class="col-md-12 card">
-        <h1>{{ site.data.translations["catTI"][page.lang] }}</h1>
-    </div>
-    {% for post in tiposts %}
-        {% include postq.html %}
-    {% endfor %}
-    <div class="col-md-12 card">
-        <h1>{{ site.data.translations["catViagem"][page.lang] }}</h1>
-    </div>
-    {% for post in vgposts %}
-        {% include postq.html %}
-    {% endfor %}
-    <div class="col-md-12 card">
-        <h1>{{ site.data.translations["catMusic"][page.lang] }}</h1>
-    </div>
-    {% for post in msposts %}
+    {% for post in langposts %}
         {% include postq.html %}
     {% endfor %}
 </div>
 
-<div class="row">
-<!-- <div class="col-md-4">  </div>
+<!--<div class="row">
+<div class="col-md-4">  </div>
 <div class="col-md-4">
     {% if paginator.total_pages > 1 %}
     <ul class="pagination">
@@ -53,5 +35,5 @@
     {% endif %}
 
 </div>
-<div class="col-md-4">  </div> -->
-</div>
+<div class="col-md-4">  </div>
+</div>-->

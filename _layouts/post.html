@@ -36,7 +36,9 @@ layout: default
      {% assign categories = page.categories %}
    {% endif %}
    {% for category in categories %}
-   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+     {% if category != 'pt' and category != 'en' and category != 'fr'  %}
+       <a href="{{site.baseurl}}/{{page.lang}}/{{category}}">{{category}}</a>
+     {% endif %}
    {% unless forloop.last %}&nbsp;{% endunless %}
    {% endfor %}
    </p>
@@ -56,7 +58,7 @@ layout: default
    </p>
    </div>
 
-    <div class="row">
+    <!--<div class="row">
             <ul class="pager">
              {% if page.next.url %}
                     <li><a class="next" href="{{page.next.url | prepend: site.baseurl}}">&laquo; {{page.next.title}}</a></li>
@@ -65,7 +67,7 @@ layout: default
                 <li><a class="previous" href="{{page.previous.url | prepend: site.baseurl}}">{{page.previous.title}} &raquo;</a></li>
               {% endif %}
             </ul>
-    </div>
+    </div>-->
 </div>
 
 
