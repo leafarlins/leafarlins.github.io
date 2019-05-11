@@ -1,23 +1,22 @@
 ---
 layout: post
 title:  "Olá Mundo, hello Jekyll!"
-date:  2019-03-23 20:00:47 -0300
+date:  2019-05-10 20:00:47 -0300
 img: jekyll.png
 lang: pt
 lang-ref: hello-world
 categories: TI
 ---
 
-# Olá Mundo!
+Olá Mundo! Essa é minha primeira mensagem neste blog.
 
-Olá Mundo! This is a first message of a initial post in this blog.
 
-This website was made by Jekyll. Jekyll is a simple static site generator. You can write your post in a markdown language, and it churns through layouts do create a static website.
+Este site foi feito com Jekyll. Ele é um gerador de sites estáticos bem simples. Você pode escrever na linguagem markdown, e ele transforma o site através dos layouts definidos e cria páginas estáticas.
 
-In [Jekyll docs](https://jekyllrb.com/docs/) you may see a quickstart and details about how it works. There is also a list of templates available there.
+Em [Jekyll docs](https://jekyllrb.com/docs/) você pode ler um guia rápido sobre detalhes de como ele funciona. Sempre tem uma lista de templates possíveis de utilizar por lá.
 
-Static web sites can be hosted by github pages, and for free. Give it a try!
+Sites estáticos podem ser hospedados de graça no github pages. Tente!
 
-I'm still exploring the jekyll world. I'm not from the frontend world neither website programming languages, but you know... we try to handle it as we can. The [WebJeda blog](https://blog.webjeda.com/) has great articles and tutorials about jekyll and other frontend/web stuffs  :)
+Ainda estou explorando esse mundo do Jekyll. Não sou expert em programação de sites, mas a gente se vira. O blog [WebJeda](https://blog.webjeda.com/) tem ótimos artigos e tutoriais sobre jekyll e outros assuntos relacionados a frontend. :)
 
-See ya!
+Até mais!

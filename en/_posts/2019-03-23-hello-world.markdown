@@ -5,10 +5,8 @@ date:  2019-03-23 20:00:47 -0300
 img: jekyll.png
 lang: en
 lang-ref: hello-world
-categories: TI
+categories: IT
 ---
-
-# Hello World!
 
 Hello World! This is a first message of a initial post in this blog.
 

@@ -45,9 +45,9 @@ sass:
   style: compressed
 
 category-list:
-  en: [IT]
-  fr: [IT]
-  pt: [TI]
+  en: [IT, Travel]
+  fr: [Informatique, Voyage]
+  pt: [TI, Viagem]
 
 # Menus multilang
 t:
